@@ -14,7 +14,6 @@ inline long get_timediff(struct timespec *start, struct timespec *end)
 			+ ((end->tv_sec - start->tv_sec) * 1E9);
 }
 
-
 int main(int argc, char **argv)
 {
 	pid_t pid;
